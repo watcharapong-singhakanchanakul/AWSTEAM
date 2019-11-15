@@ -1,0 +1,274 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1/rhel.7.2-x64",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {},
+    ".NETCoreApp,Version=v2.1/rhel.7.2-x64": {
+      "hackaton15/1.0.0": {
+        "dependencies": {
+          "AWSSDK.Extensions.NETCore.Setup": "3.3.100.1",
+          "AWSSDK.S3": "3.3.102.15",
+          "Amazon.Lambda.AspNetCoreServer": "3.1.0",
+          "Swashbuckle.AspNetCore": "5.0.0-rc4"
+        },
+        "runtime": {
+          "hackaton15.dll": {}
+        }
+      },
+      "Amazon.Lambda.APIGatewayEvents/1.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/Amazon.Lambda.APIGatewayEvents.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.1.3.0"
+          }
+        }
+      },
+      "Amazon.Lambda.ApplicationLoadBalancerEvents/1.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Amazon.Lambda.ApplicationLoadBalancerEvents.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Amazon.Lambda.AspNetCoreServer/3.1.0": {
+        "dependencies": {
+          "Amazon.Lambda.APIGatewayEvents": "1.2.0",
+          "Amazon.Lambda.ApplicationLoadBalancerEvents": "1.0.0",
+          "Amazon.Lambda.Core": "1.1.0",
+          "Amazon.Lambda.Logging.AspNetCore": "2.3.0",
+          "Amazon.Lambda.Serialization.Json": "1.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Amazon.Lambda.AspNetCoreServer.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.4.0"
+          }
+        }
+      },
+      "Amazon.Lambda.Core/1.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/Amazon.Lambda.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Amazon.Lambda.Logging.AspNetCore/2.3.0": {
+        "dependencies": {
+          "Amazon.Lambda.Core": "1.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Amazon.Lambda.Logging.AspNetCore.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Amazon.Lambda.Serialization.Json/1.5.0": {
+        "dependencies": {
+          "Amazon.Lambda.Core": "1.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Amazon.Lambda.Serialization.Json.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.2.0.0"
+          }
+        }
+      },
+      "AWSSDK.Core/3.3.102.6": {
+        "runtime": {
+          "lib/netstandard2.0/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.3.102.6"
+          }
+        }
+      },
+      "AWSSDK.Extensions.NETCore.Setup/3.3.100.1": {
+        "dependencies": {
+          "AWSSDK.Core": "3.3.102.6"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AWSSDK.Extensions.NETCore.Setup.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.3.100.0"
+          }
+        }
+      },
+      "AWSSDK.S3/3.3.102.15": {
+        "dependencies": {
+          "AWSSDK.Core": "3.3.102.6"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AWSSDK.S3.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.3.102.15"
+          }
+        }
+      },
+      "Microsoft.Extensions.ApiDescription.Server/3.0.0": {},
+      "Microsoft.OpenApi/1.1.1": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "assemblyVersion": "1.1.1.0",
+            "fileVersion": "1.1.1.0"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore/5.0.0-rc4": {
+        "dependencies": {
+          "Microsoft.Extensions.ApiDescription.Server": "3.0.0",
+          "Swashbuckle.AspNetCore.Swagger": "5.0.0-rc4",
+          "Swashbuckle.AspNetCore.SwaggerGen": "5.0.0-rc4",
+          "Swashbuckle.AspNetCore.SwaggerUI": "5.0.0-rc4"
+        }
+      },
+      "Swashbuckle.AspNetCore.Swagger/5.0.0-rc4": {
+        "dependencies": {
+          "Microsoft.OpenApi": "1.1.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerGen/5.0.0-rc4": {
+        "dependencies": {
+          "Microsoft.OpenApi": "1.1.1",
+          "Swashbuckle.AspNetCore.Swagger": "5.0.0-rc4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerUI/5.0.0-rc4": {
+        "runtime": {
+          "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "hackaton15/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Amazon.Lambda.APIGatewayEvents/1.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9yrwPuA1RNhwpNBEgHaohcrE0P+TqRDf2CUb/goLJLAEpxOXBSxPOH0EYCDhIdnrrpkGMgm5SDXK3YYufnHP4A==",
+      "path": "amazon.lambda.apigatewayevents/1.2.0",
+      "hashPath": "amazon.lambda.apigatewayevents.1.2.0.nupkg.sha512"
+    },
+    "Amazon.Lambda.ApplicationLoadBalancerEvents/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/xASCRn6ltJGAJfLsTfIj4xgEx+xoUlS8jmIKf+muXzCRiuna2V7KRg3JR9LKgujAF0l1v6r5MTLTicETmZ78A==",
+      "path": "amazon.lambda.applicationloadbalancerevents/1.0.0",
+      "hashPath": "amazon.lambda.applicationloadbalancerevents.1.0.0.nupkg.sha512"
+    },
+    "Amazon.Lambda.AspNetCoreServer/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+RccHYKtuzyS7ImRdkiXAtKejK0sn0LbhJEy/m5J6Zrs1tGFa+GLDo85kctP+UKFYSaI5Q2I0ZHJwRDDMkOTtg==",
+      "path": "amazon.lambda.aspnetcoreserver/3.1.0",
+      "hashPath": "amazon.lambda.aspnetcoreserver.3.1.0.nupkg.sha512"
+    },
+    "Amazon.Lambda.Core/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ueGId8b4DEHoVWkHDs3iAJH8IUSAUGu5AqkoI/Syl4RuByzik7lz9IjoImiGAlGhtsQV02MHNeTo04IFjS37gQ==",
+      "path": "amazon.lambda.core/1.1.0",
+      "hashPath": "amazon.lambda.core.1.1.0.nupkg.sha512"
+    },
+    "Amazon.Lambda.Logging.AspNetCore/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xXncGfFFoBMxJlbARDfyTVSgcZC1gYnVgh/YEEEN3Kmx9B1XKjYDyCrS5Z7YWkqL6895U1W6Dkmr1dcm0TrkYw==",
+      "path": "amazon.lambda.logging.aspnetcore/2.3.0",
+      "hashPath": "amazon.lambda.logging.aspnetcore.2.3.0.nupkg.sha512"
+    },
+    "Amazon.Lambda.Serialization.Json/1.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Y1F/m+yKUcTLFgZrX8rvgq2m9d0ebnHtJu2gziTdi+7m1VqSO1BLngNDm/gNMEiL0fzbiygsCcg6T3/r1NnDFQ==",
+      "path": "amazon.lambda.serialization.json/1.5.0",
+      "hashPath": "amazon.lambda.serialization.json.1.5.0.nupkg.sha512"
+    },
+    "AWSSDK.Core/3.3.102.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7p8ZiQmfvo36dceEJmfuP3uk2EqzJqd2+e0Re38xwBvuKLPa0M67RBJGTaOXBKRgfPUSvZfkjxsnYCsQPxB9zw==",
+      "path": "awssdk.core/3.3.102.6",
+      "hashPath": "awssdk.core.3.3.102.6.nupkg.sha512"
+    },
+    "AWSSDK.Extensions.NETCore.Setup/3.3.100.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KrMhRur0x5X8sSkRSVKt7iEwdsMqu8sa5zqTOhaxEw52r/YaqiiRgw0hNcNCObpm2gQAASewlIVfaBitGjHlUw==",
+      "path": "awssdk.extensions.netcore.setup/3.3.100.1",
+      "hashPath": "awssdk.extensions.netcore.setup.3.3.100.1.nupkg.sha512"
+    },
+    "AWSSDK.S3/3.3.102.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Oga6yGBjPlkQW5GsYCQpyhJgoFjSsUtbbiPC9FMjDH4WXWwadBupIAyn1TQTBAgHLmmfR/EBVl/WfmnZiIzYWw==",
+      "path": "awssdk.s3/3.3.102.15",
+      "hashPath": "awssdk.s3.3.3.102.15.nupkg.sha512"
+    },
+    "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LH4OE/76F6sOCslif7+Xh3fS/wUUrE5ryeXAMcoCnuwOQGT5Smw0p57IgDh/pHgHaGz/e+AmEQb7pRgb++wt0w==",
+      "path": "microsoft.extensions.apidescription.server/3.0.0",
+      "hashPath": "microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512"
+    },
+    "Microsoft.OpenApi/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-96jr5MPyQ9WzxiBlTH2czVLwpOn7a7Y6j1vRHIZ4sIOFSAclPW2G+iQwnbw7rFBabTALiFJJ7q5Z5r8s+RmGvw==",
+      "path": "microsoft.openapi/1.1.1",
+      "hashPath": "microsoft.openapi.1.1.1.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore/5.0.0-rc4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jAgsEbL+1EIUdxtbkmINk9WEJCfG6vsoolJqGcypCI87NEZFTeaz8SZyUB3pXBcuogab2yr7Hi7dP0XyrfAPtQ==",
+      "path": "swashbuckle.aspnetcore/5.0.0-rc4",
+      "hashPath": "swashbuckle.aspnetcore.5.0.0-rc4.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.Swagger/5.0.0-rc4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oZPhUbTeTgCiC7IbB0K9JNPOX2V2vr2ZNRXZdv4Qucg+AegOup5hsecghktsJ1/MrNFsLFmUULuXMjxCCmeX1w==",
+      "path": "swashbuckle.aspnetcore.swagger/5.0.0-rc4",
+      "hashPath": "swashbuckle.aspnetcore.swagger.5.0.0-rc4.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.SwaggerGen/5.0.0-rc4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-j0s+/BRIl5zRJu3wN+CXESU1FLYaDvFKWcLdX0ftGx4VtUGDf3aECX5UZvMReak6pb1O6fAU6felmDBEyfDyUg==",
+      "path": "swashbuckle.aspnetcore.swaggergen/5.0.0-rc4",
+      "hashPath": "swashbuckle.aspnetcore.swaggergen.5.0.0-rc4.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.SwaggerUI/5.0.0-rc4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-38whGu1o32TAWPSODKQDXkOoTIluE8mDZ02mCsLXv+MfBY/c/BtdZ+XsFALGeWjWGU/ZqCT0lQN7ogvPbh84Yg==",
+      "path": "swashbuckle.aspnetcore.swaggerui/5.0.0-rc4",
+      "hashPath": "swashbuckle.aspnetcore.swaggerui.5.0.0-rc4.nupkg.sha512"
+    }
+  }
+}
