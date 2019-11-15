@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\gamegolf\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\gamegolf\\.nuget\\packages"
+    ]
+  }
+}
